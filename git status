@@ -1,0 +1,53 @@
+[33mcommit adbd5a24a0a15e8f7ad8755e19679c7c56a4a490[m
+Author: Chris Schalago <chrisschalago@gmail.com>
+Date:   Sun Jan 28 02:30:41 2018 -0500
+
+    Finish layout and routes
+
+[33mcommit 4ac3268ffe2ef0c1832f63efff2ace75c4c1b314[m
+Author: Chris Schalago <chrisschalago@gmail.com>
+Date:   Sun Jan 28 02:15:04 2018 -0500
+
+    Start filling in layout
+
+[33mcommit 844caf052dc4e1e49682896ca68d03ae6576a8be[m
+Author: Chris Schalago <chrisschalago@gmail.com>
+Date:   Fri Jan 26 21:05:11 2018 -0500
+
+    Add full_title helper
+
+[33mcommit c6b89b9b0165e53ab7bee1619d2381672f117b7a[m
+Author: Chris Schalago <chrisschalago@gmail.com>
+Date:   Fri Jan 26 19:19:56 2018 -0500
+
+    Add static pages
+
+[33mcommit ebe4477b4e1fc5ca2d9d1fca48f0c33489a1664c[m
+Author: Chris Schalago <chrisschalago@gmail.com>
+Date:   Thu Jan 25 19:10:07 2018 -0500
+
+    Add a Static Pages controller
+
+[33mcommit 46be6655f7e31c52131e46c2a71bea0f9088572c[m
+Author: Chris Schalago <chrisschalago@gmail.com>
+Date:   Thu Jan 25 18:43:33 2018 -0500
+
+    Add hello
+
+[33mcommit fae679dec53a6823a5564e4806899634314b83dd[m
+Author: Chris Schalago <chrisschalago@gmail.com>
+Date:   Thu Jan 25 18:36:46 2018 -0500
+
+    Update README
+
+[33mcommit a47fadd5e5fca848fedc77512f4c60053aacb72e[m
+Author: Chris Schalago <chrisschalago@gmail.com>
+Date:   Thu Jan 25 18:36:21 2018 -0500
+
+    Update Gemfile
+
+[33mcommit fc2c7b326eb1d0e727f40e5a678bdeca96d9ba3e[m
+Author: Chris Schalago <chrisschalago@gmail.com>
+Date:   Thu Jan 25 18:31:01 2018 -0500
+
+    Initialize repo
