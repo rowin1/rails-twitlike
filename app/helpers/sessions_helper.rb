@@ -47,4 +47,16 @@ module SessionsHelper
     cookies.delete(:user_id)
     cookies.delete(:remember_token)
   end
+
+  # Stores the URL trying to be accessed.
+  def store_location
+    session[:forwarding_url] = request.original_url if request.get?
+  end
+
+  # Redirects to stored location, or to default if nil
+  def redirect_back_or(default)
+    redirect_to(session[:forwarding_url] || default)
+    session.delete(:forwarding_url) # The redirect in the above line doesn't
+    # happen until an explicit return or the end of the method
+  end
 end
