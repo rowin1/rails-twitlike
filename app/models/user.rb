@@ -10,6 +10,11 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
 
+  # Defines a proto-feed, not fully implemented with other users
+  def feed
+    Micropost.where("user_id = ?", id)
+  end
+
   # Returns hash digest of the given string
   def User.digest(string)
     cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
