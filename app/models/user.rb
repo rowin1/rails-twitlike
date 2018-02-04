@@ -22,7 +22,7 @@ class User < ApplicationRecord
 
   # Gets called by the Static Pages Controller
   def feed
-    Microposts.where("user_id IN (?) OR user_id = ?", following_ids, id)
+    Micropost.where("user_id IN (?) OR user_id = ?", following_ids, id)
   end
 
   # Returns hash digest of the given string
