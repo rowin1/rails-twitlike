@@ -20,9 +20,9 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
 
-  # Defines a proto-feed, not fully implemented with other users
+  # Gets called by the Static Pages Controller
   def feed
-    Micropost.where("user_id = ?", id)
+    Microposts.where("user_id IN (?) OR user_id = ?", following_ids, id)
   end
 
   # Returns hash digest of the given string
