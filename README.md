@@ -1,3 +1,5 @@
+Live version can be found on Heroku: [https://quiet-lake-67007.herokuapp.com](https://quiet-lake-67007.herokuapp.com)
+
 ## Getting started
 
 To get started with the app, clone the repo and then install the needed gems:
